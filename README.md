@@ -5,7 +5,7 @@
 If you want to view this webpage then click on ☝️ above link.
 <br>
 
-*** ACCESS KEY'S FOR MAC ***
+*** <ins>ACCESS KEY'S FOR MAC</ins> ***
 
 OPT + CTRL + F => FONT<br />
 OPT + CTRL + O => FONT STYLE<br />
@@ -18,7 +18,7 @@ OPT + CTRL + E => SUPERSCRIPT(CHECKED / UNCHECKED)<br />
 OPT + CTRL + B => SUBSCRIPT(CHECKED / UNCHECKED)<br />
 
 
-*** ACCESS KEY'S FOR WINDOWS ***
+*** <ins>ACCESS KEY'S FOR WINDOWS</ins> ***
 
 ALT + F => FONT<br />
 ALT + O => FONT STYLE<br />
