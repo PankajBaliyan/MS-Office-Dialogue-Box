@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/56fdbf90e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="maincontainer">
+        <div class="outerbox">
+            <div class="header">
+                <h4>Format Cells</h4>
+                <div>
+                    <i class="fa-solid fa-question"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <!-- All top buttons  -->
+            <div class="maincontent">
+                <div class="topbtns">
+                    <button class="buttons padding">Number</button>
+                    <button class="buttons padding">Alignment</button>
+                    <button class="buttons padding" id="fontwidth">Font</button>
+                    <button class="buttons padding">Border</button>
+                    <button class="buttons padding">Patterns</button>
+                    <button class="buttons padding">Protection</button>
+                </div>
+                <div class="workoutarea padding">
+                    <div class="start1">
+
+                        <!-- Font section  -->
+                        <div class="one cmmn">
+                            <label for="fonts"><u>F</u>ont : </label>
+                            <input class="input1" type="text" placeholder="Verdana">
+                            <select  name="fonts" id="fonts" size="5" autocomplete="off" accesskey="F">
+                                <option value="architectural">Tw Cen MT</option>
+                                <option value="arialv">Arial</option>
+                                <option value="opel">Opel</option>
+                                <option value="arial-bold">Arial-bold</option>
+                                <option value="Verdana" selected>Verdana</option>
+                                <option value="clarendon-fortune-bold">Clarendon-fortune-bold</option>
+                                <option value="Helvetica">Helvetica</option>
+                                <option value="Tahoma">Tahoma</option>
+                                <option value="Times New Roman">Times New Roman</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Garamond">Garamond</option>
+                            </select>
+                        </div>
+
+                        <!-- Font style section  -->
+                        <div class="two cmmn">
+                            <label for="fontstyles">F<u>o</u>nt Styles : </label>
+                            <input type="text" placeholder="Regular" class="input1">
+                            <select name="fontstyles" id="fontstyles" size="5" autocomplete="off" accesskey="o">
+                                <option value="Regular" selected>Regular</option>
+                                <option value="Italic">Italic</option>
+                                <option value="Bold">Bold</option>
+                                <option value="BoldItallic">Bold Italic</option>
+                            </select>
+                        </div>
+
+                        <!-- Font size Section  -->
+                        <div class="three cmmn">
+                            <label for="size"><u>S</u>ize : </label>
+                            <input type="text" placeholder="10" class="input1">
+                            <select name="size" id="size" size="5" autocomplete="off" accesskey="s">
+                                <option value="5">8</option>
+                                <option value="7">9</option>
+                                <option value="9" selected>10</option>
+                                <option value="11">11</option>
+                                <option value="13">13</option>
+                                <option value="15">15</option>
+                                <option value="17">17</option>
+                                <option value="19">19</option>
+                                <option value="21">21</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="start2">
+
+                        <!-- underline section  -->
+                        <div class="one">
+                            <label for="underline"><u>U</u>nderline : </label><br>
+                            <select class="alignment-option" accesskey="u" name="underline" id="underline" autocomplete="off">
+                                <option value="none">None</option>
+                                <option value="5">5</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+
+                        <!-- color section  -->
+                        <div id="color1" class="two">
+                            <label for="color"><u>C</u>olor : </label><br>
+                            <select class="alignment-option" accesskey="c" name="color" id="color" autocomplete="off">
+                                <option value="Automatic">Automatic</option>
+                                <option value="Black & White">Black & White</option>
+                                <option value="Colorful">Colorful</option>
+                            </select>
+                        </div>
+
+                        <!-- normal font section  -->
+                        <div id="normalfont" class="padding">
+                            <input type="checkbox" name="normalfont" id="normalfont1" checked>
+                            <label for="normalfont1" accesskey="n"><u>N</u>ormal Font</label>
+                        </div>
+                    </div>
+                    <div class=" start3">
+
+                        <!-- font section  -->
+                        <div class="effect">
+                            <fieldset class="padding">
+                                <legend>Effects</legend>
+                                <input  type="checkbox" accesskey="k" name="Strikethrough" id="Strikethrough">
+                                <label for="Strikethrough">Stri<u>k</u>ethrough</label><br>
+                                <input type="checkbox" accesskey="e" name="Superscript" id="Superscript">
+                                <label for="Superscript">Sup<u>e</u>rscript</label><br>
+                                <input type="checkbox" accesskey="b" name="Subscript" id="Subscript">
+                                <label for="Subscript">Su<u>b</u>script</label>
+                            </fieldset>
+                        </div>
+                        <div id="preview">
+                            <fieldset>
+                                <legend>Preview</legend>
+                                <p id="preview1">AaBbCcYyZz</p>
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <p id="lstwrd">This is a TrueType Font. The same font will be used on both your
+                        printer and your screen.</p>
+                </div>
+
+                <!-- last buttons  -->
+                <div class="lstbtns1">
+                    <button id="okbtn" class="lstbtns">OK</button>
+                    <button class="lstbtns">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
