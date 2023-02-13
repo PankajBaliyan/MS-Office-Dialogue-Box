@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Assignment</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/56fdbf90e3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Image/internet.png" type="image/icon type">
+    <title>CSS Assignment</title>
 </head>
 
 <body>
@@ -27,12 +27,12 @@
             <!-- All top buttons  -->
             <div class="maincontent">
                 <div class="topbtns">
-                    <button class="buttons padding">Number</button>
-                    <button class="buttons padding">Alignment</button>
-                    <button class="buttons padding" id="fontwidth">Font</button>
-                    <button class="buttons padding">Border</button>
-                    <button class="buttons padding">Patterns</button>
-                    <button class="buttons padding">Protection</button>
+                    <button type="submit" class="buttons padding">Number</button>
+                    <button type="submit" class="buttons padding">Alignment</button>
+                    <button type="submit" class="buttons padding" id="fontwidth">Font</button>
+                    <button type="submit" class="buttons padding">Border</button>
+                    <button type="submit" class="buttons padding">Patterns</button>
+                    <button type="submit" class="buttons padding">Protection</button>
                 </div>
                 <div class="workoutarea padding">
                     <div class="start1">
@@ -41,7 +41,7 @@
                         <div class="one cmmn">
                             <label for="fonts"><u>F</u>ont : </label>
                             <input class="input1" type="text" placeholder="Verdana">
-                            <select  name="fonts" id="fonts" size="5" autocomplete="off" accesskey="F">
+                            <select name="fonts" id="fonts" size="5" autocomplete="off" accesskey="F">
                                 <option value="architectural">Tw Cen MT</option>
                                 <option value="arialv">Arial</option>
                                 <option value="opel">Opel</option>
@@ -90,7 +90,8 @@
                         <!-- underline section  -->
                         <div class="one">
                             <label for="underline"><u>U</u>nderline : </label><br>
-                            <select class="alignment-option" accesskey="u" name="underline" id="underline" autocomplete="off">
+                            <select class="alignment-option" accesskey="u" name="underline" id="underline"
+                                autocomplete="off">
                                 <option value="none">None</option>
                                 <option value="5">5</option>
                                 <option value="10">10</option>
@@ -119,7 +120,7 @@
                         <div class="effect">
                             <fieldset class="padding">
                                 <legend>Effects</legend>
-                                <input  type="checkbox" accesskey="k" name="Strikethrough" id="Strikethrough">
+                                <input type="checkbox" accesskey="k" name="Strikethrough" id="Strikethrough">
                                 <label for="Strikethrough">Stri<u>k</u>ethrough</label><br>
                                 <input type="checkbox" accesskey="e" name="Superscript" id="Superscript">
                                 <label for="Superscript">Sup<u>e</u>rscript</label><br>
@@ -141,12 +142,13 @@
 
                 <!-- last buttons  -->
                 <div class="lstbtns1">
-                    <button id="okbtn" class="lstbtns">OK</button>
-                    <button class="lstbtns">Cancel</button>
+                    <button type="submit" id="okbtn" class="lstbtns">OK</button>
+                    <button type="submit" class="lstbtns">Cancel</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://kit.fontawesome.com/56fdbf90e3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
