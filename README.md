@@ -32,7 +32,7 @@ ALT + B => SUBSCRIPT(CHECKED / UNCHECKED)<br />
 
 ## Authors
 
-- [@pankajkumar90](https://www.github.com/pankajkumar90)
+- [@PankajBaliyan](https://www.github.com/PankajBaliyan)
 
 
 ## Contributing
@@ -48,7 +48,7 @@ Please adhere to this project's `code of conduct`.
 
 https://ms-office-dialogue-box.vercel.app
 <br><br>
-https://pankajkumar90.github.io/MS-Office-Dialogue-Box/
+https://PankajBaliyan.github.io/MS-Office-Dialogue-Box/
 
 
 ## Feedback
@@ -69,7 +69,7 @@ I learned many things while making this repository, i.e. how to make a webpage r
 Clone the project
 
 ```bash
-  git clone https://github.com/Pankajkumar90/MS-Office-Dialogue-Box.git
+  git clone https://github.com/PankajBaliyan/MS-Office-Dialogue-Box.git
 ```
 
 Go to the project directory
